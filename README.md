@@ -1,18 +1,16 @@
 # ricky
 
-ricky
+ricky lang
 
 
 # setup
 
 
 ```
-
 git clone https://github.com/timxor/ricky.git
 
 brew install antlr
 brew install java
-
 ```
 
 
@@ -21,8 +19,8 @@ brew install java
 
 ```
 ./build.sh
-java -cp "/opt/homebrew/opt/antlr/antlr-4.13.1-complete.jar:src/main/java" com.rickylang.RickyMain test.ricky
 
+java -cp "/opt/homebrew/opt/antlr/antlr-4.13.1-complete.jar:src/main/java" com.rickylang.RickyMain test.ricky
 ```
 
 
